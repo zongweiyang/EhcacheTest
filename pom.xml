@@ -35,13 +35,28 @@
             <version>1.1.7</version>
         </dependency>
 
-
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-core</artifactId>
+            <version>3.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-web</artifactId>
+            <version>3.3.2</version>
+        </dependency>
     </dependencies>
 
     <repositories>
         <repository>
             <id>mvn</id>
             <url>http://mvnrepository.com/artifact</url>
+        </repository>
+        <!--sun-->
+        <repository>
+            <id>dsol-xml</id>
+            <name>Simulation @ TU Delft</name>
+            <url>http://simulation.tudelft.nl/maven/</url>
         </repository>
     </repositories>
 
